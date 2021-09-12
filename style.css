@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin-top: 2rem;
+    font-size: 20px;
+}
+body{
+    background-color: hotpink;
+    line-height: 1.5;
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: 15px auto;
+    height: 2rem;
+    width: 12rem;
+    border: 3px solid whitesmoke;
+    background-color: rgb(204, 41, 204);
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 5px solid rgb(80, 1, 67);
+    background-color: rgb(255, 33, 237);
+    color: rgb(8, 65, 255);
+    font-weight: bold;
+    margin: 10px auto;
+    height: 3rem;
+    width: 14rem;
+    font-size: 30px;
+}
+
+img{
+    margin-top: 50px;
+    width: 350px;
+    height: 450px;
+}
+
+#bio{
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+}
